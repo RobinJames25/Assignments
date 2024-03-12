@@ -58,13 +58,14 @@ console.log(pattern);
  
 generateNumberPattern(9)
 */
+let pattern =''
 function generateNumberPattern(num) {
     for (let i = 1; i <= num; i++) {
-        let row = '';
+         pattern= '';
         for (let j = 1; j <= i; j++) {
-            row += i;
+            pattern += i;
         }
-        console.log(row);
+        console.log(pattern);
     }
 }
 
